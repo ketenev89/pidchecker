@@ -54,7 +54,7 @@ namespace pidverify
             int remainder = (pid.Substring(0, 9)
                 .Select((d, i) => (int)char.GetNumericValue(d) * (weights[i])).Sum()) % 11;
 
-            remainder = remainder >= 10 ? 0 : remainder;
+            remainder = remainder == 10 ? 0 : remainder; // We can't have reminder bigger than 10
 
             return last == remainder;
         }
