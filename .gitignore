@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/pidchecker/pidverify/obj
+/pidchecker/pidverify.tests/obj
+/pidchecker/pidverify.tests/bin/Debug/netcoreapp3.1
+/pidchecker/pidverify/bin/Debug/netcoreapp3.1
+/pidchecker/.vs/pidchecker/v16
+/pidchecker/.vs/pidchecker/DesignTimeBuild
